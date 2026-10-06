@@ -50,3 +50,17 @@ The app is fully client-side — no environment variables or database required.
 - PapaParse (CSV parsing)
 - xlsx (Excel parsing)
 - jsPDF + jspdf-autotable (PDF export)
+
+## Hosting
+
+Hosted on Railway. The public URL is unknown — confirm it with Austin.
+
+## Environment variables
+
+Names only. Do not record values in this file or in git.
+
+The app does not read custom secrets. The production server uses:
+
+- `PORT`
+
+Local development does not require a `.env` file.
